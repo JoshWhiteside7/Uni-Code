@@ -1,11 +1,15 @@
 import random
 
 def generate_random_time():
-    hours = random.randint(0, 1)
-    minutes = random.randint(45, 59) if hours == 0 else random.randint(0, 59)
+    if random.random() < 0.05:  # 5% chance for "Did Not Finish"
+        return "Did Not Finish"
+    minutes = random.randint(45, 89)
     seconds = random.randint(0, 59)
     milliseconds = random.randint(0, 999)
+    hours = minutes // 60
+    minutes %= 60
     return f"{hours:02d}:{minutes:02d}:{seconds:02d}.{milliseconds:03d}"
+
 
 def get_random_word(filename):
     with open(filename, "r") as file:
