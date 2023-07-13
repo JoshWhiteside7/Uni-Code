@@ -5,7 +5,7 @@ app = Flask(__name__)
 def leaderboard():
     with open('leaderboard_results.txt', 'r') as f:
         results = f.read()
-    return render_template('leaderboard.html', results=results)
+    return render_template('templates.html', results=results)
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='localhost', port=8000)
