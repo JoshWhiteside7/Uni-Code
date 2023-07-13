@@ -27,4 +27,4 @@ if __name__ == '__main__':
     app.run(host='localhost', port=8000)
 
 # USE THE FOLLOWING LINE IN THE TERMINAL TO RUN THIS CODE!!
-# python app.py
+# python leaderboard.py ; python app.py

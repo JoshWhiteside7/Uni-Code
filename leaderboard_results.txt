@@ -1,101 +1,101 @@
 Team	Profile	Time
-Dangerous Patrol	Date Night	00:00:07.230
-Proud Collective	Intergenerational	00:00:10.092
-Stubborn Cluster	Under 21 (age)	00:00:11.197
-Tense Troop	Date Night	00:00:44.527
-Rotund Company	Under 21 (age)	00:01:25.381
-Benevolent Unit	Corporate Event	00:01:51.153
-Prudent Horde	Date Night	00:05:35.378
-Whimsical Flock	Under 21 (age)	00:06:59.054
-Daring Gang	Over 21 (age)	00:10:09.384
-Intense Ensemble	Over 21 (age)	00:12:26.542
-Groggy Corps	Over 21 (age)	00:13:30.860
-Creative Gang	Date Night	00:14:03.179
-Shrill Battalion	Date Night	00:15:09.440
-Quarrelsome Conclave	Under 21 (age)	00:15:16.878
-Creative Society	Intergenerational	00:17:32.219
-Stunning Taskforce	Intergenerational	00:17:43.780
-Sullen Ensemble	Corporate Event	00:18:15.173
-Creative Assemblage	Intergenerational	00:21:05.163
-Scorching Mafia	Corporate Event	00:21:25.039
-Adequate Sorority	Over 21 (age)	00:22:16.300
-Meek Cohort	Under 21 (age)	00:22:21.116
-Nervous Gang	Under 21 (age)	00:22:33.215
-Challenging Taskforce	Under 21 (age)	00:23:19.865
-Impatient Posse	Corporate Event	00:23:35.586
-Terrified Society	Corporate Event	00:24:09.855
-Stunning Association	Corporate Event	00:24:14.504
-Frightened Conclave	Under 21 (age)	00:27:29.465
-Dawdling Flock	Over 21 (age)	00:28:02.383
-Fetid Ensemble	Date Night	00:31:03.368
-Lively Mafia	Under 21 (age)	00:32:46.676
-Lively Assembly	Over 21 (age)	00:33:46.464
-Gauzy Band	Corporate Event	00:39:18.937
-Compassionate Tribe	Under 21 (age)	00:39:37.291
-Enormous Group	Over 21 (age)	00:40:32.528
-Desolate Companionship	Corporate Event	00:43:37.926
-Puny Clique	Date Night	00:45:11.390
-Cheeky Guild	Intergenerational	00:47:58.306
-Blithe Society	Date Night	00:49:07.735
-Verdant Coterie	Intergenerational	00:50:11.349
-Serious Confraternity	Corporate Event	00:50:19.861
-Menacing Horde	Over 21 (age)	00:50:22.240
-Precise Pack	Corporate Event	00:51:18.329
-Dangerous Battalion	Over 21 (age)	00:52:56.105
-Brilliant Collective	Over 21 (age)	00:54:55.102
-Slight Troop	Corporate Event	00:54:56.074
-Precise Crew	Over 21 (age)	00:55:00.656
-Dangerous Gang	Corporate Event	00:55:27.236
-Absent-minded Team	Intergenerational	00:58:13.961
-Fuzzy Battalion	Date Night	00:59:26.574
-Lumpy Tribe	Under 21 (age)	01:01:07.397
-Savage Section	Intergenerational	01:03:42.056
-Arrogant Set	Over 21 (age)	01:03:48.192
-Gauzy Combination	Intergenerational	01:05:49.406
-Wise Conclave	Corporate Event	01:07:01.743
-Challenging Horde	Intergenerational	01:07:43.369
-Modest Squad	Under 21 (age)	01:08:17.213
-Gauzy Ensemble	Date Night	01:08:33.973
-Decrepit Panel	Intergenerational	01:08:47.086
-Tense Conclave	Corporate Event	01:09:23.532
-Obtuse Brotherhood	Intergenerational	01:09:30.449
-Enchanting Sodality	Over 21 (age)	01:09:41.357
-Still Society	Over 21 (age)	01:12:04.128
-Obnoxious Gathering	Over 21 (age)	01:13:39.891
-Frightened Crew	Under 21 (age)	01:16:14.367
-Menacing Consortium	Intergenerational	01:16:39.718
-Splendid Set	Corporate Event	01:16:54.021
-Haughty Coterie	Intergenerational	01:17:46.604
-Parched Party	Under 21 (age)	01:18:27.587
-Heavy Unit	Intergenerational	01:20:11.906
- Order	Date Night	01:21:12.990
-Temporary Cohort	Over 21 (age)	01:21:55.354
-Horrid Corps	Over 21 (age)	01:22:56.689
-Irritable Gang	Intergenerational	01:25:29.434
-Disgusting Unit	Corporate Event	01:26:01.896
-Grimy Coterie	Over 21 (age)	01:27:05.803
-Cautious Allotment	Under 21 (age)	01:27:17.987
-Mangy Fellowship	Intergenerational	01:29:34.811
-Filthy Horde	Corporate Event	01:32:51.369
-Cowardly Posse	Under 21 (age)	01:35:47.908
-Plush Division	Intergenerational	01:36:07.397
-Gilded Ensemble	Intergenerational	01:39:26.485
-Infamous Allotment	Over 21 (age)	01:39:41.586
-Ancient Consortium	Over 21 (age)	01:41:01.406
-Plush Gathering	Under 21 (age)	01:42:29.781
-Quarrelsome Posse	Corporate Event	01:44:22.267
-Sluggish Grouping	Over 21 (age)	01:47:34.581
-Picturesque Posse	Under 21 (age)	01:48:36.145
-Nervous Horde	Under 21 (age)	01:51:49.158
-Idyllic Circle	Under 21 (age)	01:51:53.997
-Obtuse Party	Corporate Event	01:53:17.809
-Slick Mob	Intergenerational	01:54:40.307
-Copious Club	Corporate Event	01:54:40.513
-Eternal Unit	Over 21 (age)	01:55:15.476
-Dangerous Bunch	Intergenerational	01:55:37.422
-Obtuse Tribe	Date Night	01:56:03.104
- Fellowship	Under 21 (age)	01:58:23.929
-Humble Panel	Over 21 (age)	01:58:43.377
-Towering Party	Corporate Event	01:59:08.650
- Squad	Date Night	01:59:18.514
-Demanding Coalition	Under 21 (age)	01:59:32.064
+Glowing Ensemble	Date Night	00:45:12.024
+Pleasant Association	Over 21 (age)	00:45:16.688
+Polite Fellowship	Over 21 (age)	00:45:26.964
+Stiff Crew	Intergenerational	00:45:31.349
+Gloomy Troop	Over 21 (age)	00:45:33.524
+ Assemblage	Date Night	00:45:39.522
+Absent-minded Mafia	Over 21 (age)	00:46:15.549
+Miserable Companionship	Intergenerational	00:46:52.421
+Capable Bunch	Over 21 (age)	00:47:13.548
+ Combination	Corporate Event	00:48:12.639
+Microscopic Tribe	Intergenerational	00:48:14.809
+Fetid Community	Intergenerational	00:48:43.421
+Vile Consortium	Corporate Event	00:48:57.124
+ Gathering	Over 21 (age)	00:49:06.274
+Menacing Bunch	Over 21 (age)	00:49:10.625
+Lonely Clique	Intergenerational	00:49:21.978
+Sluggish Brigade	Corporate Event	00:50:04.394
+Obtuse Organization	Intergenerational	00:50:20.059
+Bitter Association	Date Night	00:50:23.523
+Gauzy Tribe	Under 21 (age)	00:50:23.697
+Compassionate Bunch	Corporate Event	00:50:35.144
+Prudent Collective	Date Night	00:51:00.640
+Frosty Alliance	Over 21 (age)	00:51:20.445
+Humble Cohort	Under 21 (age)	00:51:20.493
+Disgusting Posse	Over 21 (age)	00:51:30.560
+Shocking Sodality	Corporate Event	00:51:41.350
+Nasty Company	Corporate Event	00:51:55.163
+Curious Troop	Corporate Event	00:52:12.181
+Dense Troop	Under 21 (age)	00:52:38.314
+Ancient Sodality	Intergenerational	00:52:43.784
+Eccentric Allotment	Under 21 (age)	00:52:53.766
+Enormous Cell	Over 21 (age)	00:53:19.541
+Lumpy Brigade	Intergenerational	00:53:44.344
+Cowardly Congregation	Under 21 (age)	00:54:11.281
+Filthy Conclave	Intergenerational	00:54:29.353
+Snug Horde	Under 21 (age)	00:54:33.379
+Puny Platoon	Intergenerational	00:54:52.062
+Grimy Syndicate	Intergenerational	00:55:05.863
+Nasty Chorus	Over 21 (age)	00:55:06.643
+Oppressive Force	Corporate Event	00:55:16.022
+Still Band	Over 21 (age)	00:55:16.905
+Ornery Club	Date Night	00:55:25.941
+Greedy Flock	Under 21 (age)	00:55:33.156
+Heavy Pack	Date Night	00:55:46.793
+Rambunctious Patrol	Intergenerational	00:55:58.405
+Eternal Sodality	Corporate Event	00:55:59.939
+Marvelous Corps	Date Night	00:56:24.865
+Dawdling Band	Corporate Event	00:56:30.929
+Perpetual Allotment	Intergenerational	00:56:32.404
+Gullible Coterie	Date Night	00:56:33.004
+Slick Unit	Intergenerational	00:56:33.833
+Gorgeous Society	Over 21 (age)	00:56:40.704
+Frightened Clique	Date Night	00:56:46.902
+Proud Congregation	Date Night	00:58:02.735
+Temporary Collective	Corporate Event	00:59:32.627
+Groggy Unit	Corporate Event	00:59:42.052
+Nasty Horde	Under 21 (age)	00:59:48.863
+Absurd Panel	Over 21 (age)	01:01:10.107
+Horrid Combination	Under 21 (age)	01:01:25.120
+Righteous Companionship	Intergenerational	01:01:29.429
+Sluggish Set	Intergenerational	01:02:59.189
+Fidgety Pack	Over 21 (age)	01:03:08.011
+Stifling Unit	Date Night	01:03:35.244
+ Posse	Date Night	01:05:16.672
+Marvelous Society	Date Night	01:06:03.121
+Optimistic Society	Intergenerational	01:07:51.949
+Cranky Gathering	Over 21 (age)	01:09:28.238
+Still Chorus	Date Night	01:12:26.981
+Muggy Platoon	Date Night	01:13:01.249
+Gilded Posse	Intergenerational	01:16:19.981
+Stern Congregation	Over 21 (age)	01:18:04.916
+Nervous Posse	Under 21 (age)	01:18:50.471
+Stingy Posse	Date Night	01:20:37.901
+ Brigade	Over 21 (age)	01:21:34.563
+Scarce Corps	Over 21 (age)	01:22:29.687
+Slick Taskforce	Under 21 (age)	01:23:23.234
+Heavy Assembly	Over 21 (age)	01:26:25.393
+Excited Consortium	Over 21 (age)	01:34:48.178
+Terrified Conclave	Corporate Event	01:34:49.227
+Alert Team	Corporate Event	01:35:38.859
+Meek Set	Corporate Event	01:39:22.087
+Cowardly Tribe	Under 21 (age)	01:39:55.563
+Filthy Gathering	Over 21 (age)	01:40:35.677
+Petite Group	Under 21 (age)	01:43:02.269
+Fantastic Society	Intergenerational	01:46:00.838
+Severe Conclave	Over 21 (age)	01:47:48.656
+Optimistic Squad	Over 21 (age)	01:47:53.754
+Verdant Force	Under 21 (age)	01:48:37.495
+Haughty Troop	Corporate Event	01:48:57.380
+Awkward Combination	Under 21 (age)	01:51:19.251
+Capable Society	Over 21 (age)	01:51:26.454
+Adequate Flock	Corporate Event	01:53:14.499
+Erratic Troop	Corporate Event	01:53:34.104
+Spoiled Ensemble	Over 21 (age)	01:55:50.546
+ Set	Under 21 (age)	01:55:53.656
+Simple Horde	Intergenerational	01:56:02.646
+Righteous Syndicate	Corporate Event	01:57:05.880
+Snug Conclave	Corporate Event	01:58:08.636
+Spoiled Combination	Intergenerational	01:58:46.399
+Muffled Cluster	Intergenerational	01:59:47.578

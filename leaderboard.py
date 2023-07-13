@@ -2,7 +2,7 @@ import random
 
 def generate_random_time():
     hours = random.randint(0, 1)
-    minutes = random.randint(0, 59)
+    minutes = random.randint(45, 59) if hours == 0 else random.randint(0, 59)
     seconds = random.randint(0, 59)
     milliseconds = random.randint(0, 999)
     return f"{hours:02d}:{minutes:02d}:{seconds:02d}.{milliseconds:03d}"
