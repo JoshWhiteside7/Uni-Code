@@ -2,6 +2,10 @@ from flask import Flask, render_template
 import random
 app = Flask(__name__)
 
+@app.route('/')
+def homepage():
+    return render_template('homepage.html')
+
 def get_group_number(profile):
     if profile == "Date Night":
         return 2
@@ -24,7 +28,7 @@ def assign_rank(leaderboard):
         ranked_leaderboard.append(ranked_entry)
     return ranked_leaderboard
 
-@app.route('/')
+@app.route('/leaderboard')
 def leaderboard():
     leaderboard = []
     with open('leaderboard_results.txt', 'r') as f:
