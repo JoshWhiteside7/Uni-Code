@@ -12,6 +12,18 @@ def get_group_number(profile):
     else:
         return 0  # Default case if the profile doesn't match any specific group number logic
 
+def assign_rank(leaderboard):
+    ranked_leaderboard = []
+    rank_names = ["1st", "2nd", "3rd"]
+    for rank, entry in enumerate(leaderboard):
+        if rank < 3:
+            rank_name = rank_names[rank]
+        else:
+            rank_name = str(rank + 1) + "th"
+        ranked_entry = (rank_name, *entry)
+        ranked_leaderboard.append(ranked_entry)
+    return ranked_leaderboard
+
 @app.route('/')
 def leaderboard():
     leaderboard = []
@@ -21,7 +33,8 @@ def leaderboard():
             group_name, profile, time = line.strip().split('\t')
             group_number = get_group_number(profile)
             leaderboard.append((group_name, profile, group_number, time))
-    return render_template('leaderboard.html', leaderboard=leaderboard)
+    ranked_leaderboard = assign_rank(leaderboard)
+    return render_template('leaderboard.html', leaderboard=ranked_leaderboard)
 
 if __name__ == '__main__':
     app.run(host='localhost', port=8000)

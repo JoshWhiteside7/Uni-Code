@@ -24,6 +24,7 @@
     <table>
         <thead>
             <tr>
+                <th>Rank</th>
                 <th>Team</th>
                 <th>Profile</th>
                 <th>Group Size</th>
@@ -33,10 +34,21 @@
         <tbody>
             {% for entry in leaderboard %}
             <tr>
-                <td>{{ entry[0] }}</td>
+                <td>
+                    {% if entry[0] == "1st" %}
+                        🥇
+                    {% elif entry[0] == "2nd" %}
+                        🥈
+                    {% elif entry[0] == "3rd" %}
+                        🥉
+                    {% else %}
+                        {{ entry[0] }}
+                    {% endif %}
+                </td>
                 <td>{{ entry[1] }}</td>
                 <td>{{ entry[2] }}</td>
                 <td>{{ entry[3] }}</td>
+                <td>{{ entry[4] }}</td>
             </tr>
             {% endfor %}
         </tbody>
