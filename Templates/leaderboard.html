@@ -1,7 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Leaderboard</title>
+{% extends 'base.html' %}
+
+{% block title %}Leaderboard{% endblock %}
+
+{% block content %}
     <style>
         table {
             border-collapse: collapse;
@@ -18,8 +19,7 @@
             background-color: #f2f2f2;
         }
     </style>
-</head>
-<body>
+    
     <h1>Leaderboard</h1>
     <table>
         <thead>
@@ -53,5 +53,4 @@
             {% endfor %}
         </tbody>
     </table>
-</body>
-</html>
+{% endblock %}

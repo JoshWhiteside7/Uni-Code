@@ -40,6 +40,14 @@ def leaderboard():
     ranked_leaderboard = assign_rank(leaderboard)
     return render_template('leaderboard.html', leaderboard=ranked_leaderboard)
 
+@app.route('/book')
+def book():
+    return render_template('book.html')
+
+@app.route('/contact')
+def contact():
+    return render_template('contact.html')
+
 if __name__ == '__main__':
     app.run(host='localhost', port=8000)
 

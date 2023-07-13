@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}{% endblock %}</title>
+    <style>
+        /* Add this style for the buttons container */
+        .button-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        /* Add this style for the buttons */
+        .nav-button {
+            flex: 1;
+            height: 50px;
+            padding: 10px;
+            text-align: center;
+            border: 2px solid black;
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        /* Customize the color for each individual button */
+        .home-button {
+            background-color: rgb(242, 196, 58);
+        }
+
+        .book-now-button {
+            background-color: rgb(220, 154, 41);
+        }
+
+        .contact-us-button {
+            background-color: rgb(229, 125, 46);
+        }
+
+        .leaderboard-button {
+            background-color: rgb(227, 73, 73);
+        }
+
+        /* Add this style to remove default button styles */
+        button {
+            border: none;
+            outline: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="button-container">
+            <button class="nav-button home-button" onclick="window.location.href='/';">Emberton Escape Room</button>
+            <button class="nav-button book-now-button" onclick="window.location.href='/book';">Book Now</button>
+            <button class="nav-button contact-us-button" onclick="window.location.href='/contact';">Contact Us</button>
+            <button class="nav-button leaderboard-button" onclick="window.location.href='/leaderboard';">Leaderboard</button>
+        </div>
+    </div>
+    
+    <div class="content">
+        {% block content %}{% endblock %}
+    </div>
+</body>
+</html>
