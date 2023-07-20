@@ -1,4 +1,4 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 import random
 app = Flask(__name__)
 
@@ -28,6 +28,7 @@ def assign_rank(leaderboard):
         ranked_leaderboard.append(ranked_entry)
     return ranked_leaderboard
 
+
 @app.route('/leaderboard')
 def leaderboard():
     leaderboard = []
@@ -35,8 +36,24 @@ def leaderboard():
         next(f)  # Skip the header line
         for line in f:
             group_name, profile, group_number, time = line.strip().split('\t')
-            # group_number = get_group_number(profile)
             leaderboard.append((group_name, profile, group_number, time))
+
+    # Get query parameters from request
+    profile_filter = request.args.get('profile')
+    group_size_filter = request.args.get('group_size')
+    time_filter_start = request.args.get('time_start')
+    time_filter_end = request.args.get('time_end')
+
+    # Apply filtering based on the query parameters if they are present
+    if profile_filter and profile_filter != "All":
+        leaderboard = [entry for entry in leaderboard if entry[1] == profile_filter]
+
+    if group_size_filter and group_size_filter != "All":
+        leaderboard = [entry for entry in leaderboard if entry[2] == group_size_filter]
+
+    if time_filter_start and time_filter_end:
+        leaderboard = [entry for entry in leaderboard if time_filter_start <= entry[3] <= time_filter_end]
+
     ranked_leaderboard = assign_rank(leaderboard)
     return render_template('leaderboard.html', leaderboard=ranked_leaderboard)
 

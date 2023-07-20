@@ -21,6 +21,36 @@
     </style>
     
     <h1>Leaderboard</h1>
+    <div class="filter-container">
+        <label for="profile-filter">Filter by Profile:</label>
+        <select id="profile-filter">
+            <option value="All">All</option>
+            <option value="Corporate Event">Corporate Event</option>
+            <option value="Date Night">Date Night</option>
+            <option value="Over 21 (age)">Over 21 (age)</option>
+            <option value="Under 21 (age)">Under 21 (age)</option>
+            <option value="Intergenerational">Intergenerational</option>
+        </select>
+
+        <label for="group-size-filter">Filter by Group Size:</label>
+        <select id="group-size-filter">
+            <option value="All">All</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+
+        <label for="time-filter">Filter by Time Range:</label>
+        <input type="time" id="time-filter-start">
+        <input type="time" id="time-filter-end">
+        <button id="apply-filter-btn">Apply Filter</button>
+    </div>
     <table>
         <thead>
             <tr>
@@ -53,4 +83,38 @@
             {% endfor %}
         </tbody>
     </table>
+
+    <script>
+        document.getElementById("apply-filter-btn").addEventListener("click", applyFilter);
+    
+        function applyFilter() {
+            const profileFilter = document.getElementById("profile-filter").value;
+            const groupSizeFilter = document.getElementById("group-size-filter").value;
+            const startTimeFilter = document.getElementById("time-filter-start").value;
+            const endTimeFilter = document.getElementById("time-filter-end").value;
+    
+            // Make an API request with the selected filter parameters
+            fetch(`/leaderboard?profile=${profileFilter}&group_size=${groupSizeFilter}&time_start=${startTimeFilter}&time_end=${endTimeFilter}`)
+                .then(response => response.json())
+                .then(data => {
+                    // Update the table with the new filtered data
+                    const tableBody = document.querySelector("tbody");
+                    tableBody.innerHTML = ""; // Clear existing rows
+    
+                    for (const entry of data) {
+                        const newRow = document.createElement("tr");
+                        newRow.innerHTML = `
+                            <td>${entry[0]}</td>
+                            <td>${entry[1]}</td>
+                            <td>${entry[2]}</td>
+                            <td>${entry[3]}</td>
+                            <td>${entry[4]}</td>
+                        `;
+                        tableBody.appendChild(newRow);
+                    }
+                })
+                .catch(error => console.error('Error fetching leaderboard data:', error));
+        }
+        applyFilter();
+    </script>
 {% endblock %}
