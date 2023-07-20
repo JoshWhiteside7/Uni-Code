@@ -22,6 +22,8 @@
             font-weight: bold;
             text-decoration: none;
             display: inline-block;
+            /* Add transition for smooth hover effect */
+            transition: background-color 0.3s ease;
         }
 
         /* Customize the color for each individual button */
@@ -47,6 +49,29 @@
             outline: none;
             cursor: pointer;
         }
+
+        /* Add hover styles for all buttons */
+        .home-button:hover {
+            background-color: #f5d26a;
+        }
+
+        .book-now-button:hover {
+            background-color: #e7b96b;
+        }
+
+        .contact-us-button:hover {
+            background-color: #eb995b; 
+        }
+
+        .leaderboard-button:hover {
+            background-color: #ea7575; 
+        }
+
+        /* Add focus styles for all buttons */
+        .nav-button:focus {
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+            
+        }
     </style>
 </head>
 <body>
@@ -58,7 +83,7 @@
             <button class="nav-button leaderboard-button" onclick="window.location.href='/leaderboard';">Leaderboard</button>
         </div>
     </div>
-    
+
     <div class="content">
         {% block content %}{% endblock %}
     </div>
