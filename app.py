@@ -6,15 +6,15 @@ app = Flask(__name__)
 def homepage():
     return render_template('homepage.html')
 
-def get_group_number(profile):
-    if profile == "Date Night":
-        return 2
-    elif profile == "Corporate Event":
-        return random.randint(5, 10)
-    elif profile == "Over 21 (age)" or profile == "Under 21 (age)" or profile == "Intergenerational":
-        return random.randint(2, 10)
-    else:
-        return 0  # Default case if the profile doesn't match any specific group number logic
+# def get_group_number(profile):
+#     if profile == "Date Night":
+#         return 2
+#     elif profile == "Corporate Event":
+#         return random.randint(5, 10)
+#     elif profile == "Over 21 (age)" or profile == "Under 21 (age)" or profile == "Intergenerational":
+#         return random.randint(2, 10)
+#     else:
+#         return 0  # Default case if the profile doesn't match any specific group number logic
 
 def assign_rank(leaderboard):
     ranked_leaderboard = []
@@ -34,8 +34,8 @@ def leaderboard():
     with open('leaderboard_results.txt', 'r') as f:
         next(f)  # Skip the header line
         for line in f:
-            group_name, profile, time = line.strip().split('\t')
-            group_number = get_group_number(profile)
+            group_name, profile, group_number, time = line.strip().split('\t')
+            # group_number = get_group_number(profile)
             leaderboard.append((group_name, profile, group_number, time))
     ranked_leaderboard = assign_rank(leaderboard)
     return render_template('leaderboard.html', leaderboard=ranked_leaderboard)
