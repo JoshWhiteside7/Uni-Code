@@ -54,6 +54,8 @@ def leaderboard():
     if time_filter_start and time_filter_end:
         leaderboard = [entry for entry in leaderboard if time_filter_start <= entry[3] <= time_filter_end]
 
+    print("Filtered Data:", leaderboard)  # Debug statement
+
     ranked_leaderboard = assign_rank(leaderboard)
     return render_template('leaderboard.html', leaderboard=ranked_leaderboard)
 

@@ -61,7 +61,7 @@
                 <th>Time</th>
             </tr>
         </thead>
-        <tbody>
+        <tbody id="table-body">
             {% for entry in leaderboard %}
             <tr>
                 <td>
@@ -97,9 +97,11 @@
             fetch(`/leaderboard?profile=${profileFilter}&group_size=${groupSizeFilter}&time_start=${startTimeFilter}&time_end=${endTimeFilter}`)
                 .then(response => response.json())
                 .then(data => {
+                    console.log("Received Data:", data);  // Debug statement
                     // Update the table with the new filtered data
-                    const tableBody = document.querySelector("tbody");
-                    tableBody.innerHTML = ""; // Clear existing rows
+                    
+                    const tableBodyElement = document.getElementById("table-body");
+                    tableBodyElement.innerHTML = ""; // Clear existing rows
     
                     for (const entry of data) {
                         const newRow = document.createElement("tr");
@@ -116,5 +118,8 @@
                 .catch(error => console.error('Error fetching leaderboard data:', error));
         }
         applyFilter();
+        
+        // Register the event listener for the "Apply Filter" button
+        document.getElementById("apply-filter-btn").addEventListener("click", applyFilter);
     </script>
 {% endblock %}
